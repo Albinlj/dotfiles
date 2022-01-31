@@ -4,3 +4,6 @@ AppData/Local/nvim/init.vim
 {{ if ne .chezmoi.os "linux" }}
 .config/nvim/init.vim
 {{ end }}
+{{ if ne .chezmoi.os "darwin" }}
+.config/nvim/init.vim
+{{ end }}
