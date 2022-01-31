@@ -1,6 +1,5 @@
 {{ if ne .chezmoi.os "windows" }}
-AppData/Local/nvim/init.vim
-{{ end }}
-{{ if ne .chezmoi.os "linux" }}
 .config/nvim/init.vim
+{{ else }}
+AppData/Local/nvim/init.vim
 {{ end }}
