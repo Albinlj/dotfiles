@@ -8,7 +8,7 @@ Plug 'morhetz/gruvbox'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope'
 Plug 'tpope/vim-fugitive'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc': {'branch': 'release'}
 
 call plug#end()
 
