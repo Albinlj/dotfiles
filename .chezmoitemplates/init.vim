@@ -6,9 +6,9 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'mbbill/undotree'
 Plug 'morhetz/gruvbox'
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope'
+Plug 'nvim-telescope/telescope.nvim'
 Plug 'tpope/vim-fugitive'
-Plug 'neoclide/coc': {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
