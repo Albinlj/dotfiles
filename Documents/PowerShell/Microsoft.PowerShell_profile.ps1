@@ -14,7 +14,7 @@ function Prompt
 Set-Alias testtt Strut-Me
 function Strut-Me
 {
-	echo "heaaj"
+	echo "heaaasd:j"
 }
 
 Set-Alias psconf Edit-PowershellProfile
