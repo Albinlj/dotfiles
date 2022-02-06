@@ -18,14 +18,14 @@ Plug 'mattn/emmet-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'frazrepo/vim-rainbow'
 Plug 'tversteeg/registers.nvim'
-Plug 'leafgarland/typescript-vim'
-Plug 'peitalin/vim-jsx-typescript'
 
 call plug#end()
 
 let g:rainbow_active = 1
 
 let mapleader=' '
+
+hi tsxAttrib guifg=#F8BD7F cterm=italic
 
 " Split
 noremap <Leader>h :<C-u>split<CR>
