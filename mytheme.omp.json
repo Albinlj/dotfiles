@@ -254,7 +254,7 @@
 	"transient_prompt": {
 		"background": "transparent",
 		"foreground": "#ffffff",
-		"template": "{{ .Shell }}> "
+		"template": "\u2570\u2500\ue285\ufb00 "
 	},
 	"console_title": true,
 	"console_title_style": "template",
