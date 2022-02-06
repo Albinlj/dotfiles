@@ -18,6 +18,8 @@ Plug 'mattn/emmet-vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'frazrepo/vim-rainbow'
 Plug 'tversteeg/registers.nvim'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 
 call plug#end()
 

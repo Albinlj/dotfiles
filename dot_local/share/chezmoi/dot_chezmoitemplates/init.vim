@@ -27,6 +27,8 @@ let g:rainbow_active = 1
 
 let mapleader=' '
 
+hi tsxAttrib guifg=#F8BD7F cterm=italic
+
 " Split
 noremap <Leader>h :<C-u>split<CR>
 noremap <Leader>v :<C-u>vsplit<CR>
