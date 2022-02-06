@@ -1,6 +1,3 @@
-# test
-
-
 function Prompt
 {
     $mywd = (Get-Location).Path
@@ -10,19 +7,11 @@ function Prompt
     return " "
 }
 
-#test34
-Set-Alias testtt Strut-Me
-function Strut-Me
-{
-	echo "hj"
-}
-
 Set-Alias psconf Edit-PowershellProfile
 function Edit-PowershellProfile
 {
     chezmoi edit $Profile
     chezmoi apply
-Start-Sleep 1
     . $Profile
 }
 
