@@ -21,6 +21,8 @@ Plug 'tversteeg/registers.nvim'
 
 call plug#end()
 
+let g:rainbow_active = 1
+
 let mapleader=' '
 
 " Split
