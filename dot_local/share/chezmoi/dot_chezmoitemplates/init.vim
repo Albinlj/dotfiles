@@ -23,11 +23,10 @@ Plug 'tversteeg/registers.nvim'
 call plug#end()
 
 let g:rainbow_active = 1
-let g:coc_global_extensions = ['coc-tsserver', 'coc-json', 'coc-git']
+let g:coc_global_extensions = ['coc-tsserver', 'coc-css', 'coc-cssmodules','coc-json', 'coc-git']
 
 let mapleader=' '
 
-hi tsxAttrib guifg=#F8BD7F cterm=italic
 
 " Split
 noremap <Leader>h :<C-u>split<CR>
