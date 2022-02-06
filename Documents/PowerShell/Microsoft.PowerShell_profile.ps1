@@ -1,4 +1,3 @@
-Set-Alias rc Edit-PowershellProfile
 # test
 
 
@@ -11,9 +10,10 @@ function Prompt
     return " "
 }
 
+Set-Alias psconf Edit-PowershellProfile
 function Edit-PowershellProfile
 {
-    nvim $Profile
+    chezmoi edit $Profile
 }
 
 oh-my-posh --init --shell pwsh --config $env:POSH_THEMES_PATH/hunk.omp.json | Invoke-Expression
