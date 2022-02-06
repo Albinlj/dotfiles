@@ -24,5 +24,6 @@ function Edit-NeovimConfig
     chezmoi apply
 }
 
+Import-Module oh-my-posh
 oh-my-posh --init --shell pwsh --config $env:POSH_THEMES_PATH/jandedobbeleer.omp.json | Invoke-Expression
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
