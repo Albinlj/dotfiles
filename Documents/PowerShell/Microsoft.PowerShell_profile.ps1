@@ -18,4 +18,10 @@ function Edit-PowershellProfile
     chezmoi edit $Profile
 }
 
+Set-Alias vimconf Edit-NeovimConfig
+function Edit-NeovimConfig
+{
+    chezmoi edit ~/.local/share/chezmoi/.chezmoitemplates/init.vim
+}
+
 oh-my-posh --init --shell pwsh --config $env:POSH_THEMES_PATH/hunk.omp.json | Invoke-Expression
