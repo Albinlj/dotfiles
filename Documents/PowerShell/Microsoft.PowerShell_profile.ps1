@@ -11,6 +11,11 @@ function Prompt
 }
 
 #test34
+Set-Alias testtt Strut-Me
+function Strut-Me
+{
+	echo "hej"
+}
 
 Set-Alias psconf Edit-PowershellProfile
 function Edit-PowershellProfile
