@@ -25,12 +25,10 @@ Plug 'stsewd/fzf-checkout.vim'
 
 call plug#end()
 
-let g:rainbow_active = 1
-let g:coc_global_extensions = ['coc-tsserver', 'coc-css', 'coc-cssmodules','coc-json', 'coc-git']
-
 let mapleader=" "
 
-
+let g:rainbow_active = 1
+let g:coc_global_extensions = ['coc-tsserver', 'coc-css', 'coc-cssmodules','coc-json', 'coc-git']
 
 
 " Split
@@ -183,9 +181,5 @@ nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>
 nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 "nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
-
-
-
-
 
 colorscheme gruvbox
