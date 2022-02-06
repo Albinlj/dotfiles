@@ -25,4 +25,5 @@ function Edit-NeovimConfig
 }
 
 oh-my-posh --init --shell pwsh --config ~/mytheme.omp.json | Invoke-Expression
+Enable-PoshTransientPrompt
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+t' -PSReadlineChordReverseHistory 'Ctrl+r'
