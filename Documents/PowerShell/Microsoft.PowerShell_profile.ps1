@@ -16,6 +16,7 @@ Set-Alias psconf Edit-PowershellProfile
 function Edit-PowershellProfile
 {
     chezmoi edit $Profile
+    chezmoi apply
 }
 
 Set-Alias vimconf Edit-NeovimConfig
