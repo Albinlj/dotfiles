@@ -8,6 +8,7 @@ Plug 'mbbill/undotree'
 Plug 'morhetz/gruvbox'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
@@ -22,6 +23,7 @@ Plug 'tversteeg/registers.nvim'
 call plug#end()
 
 let g:rainbow_active = 1
+let g:coc_global_extensions = ['coc-tsserver', 'coc-json', 'coc-git']
 
 let mapleader=' '
 
