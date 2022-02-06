@@ -131,16 +131,7 @@
 					"style": "powerline",
 					"type": "root"
 				},
-				{
-					"background": "#83769c",
-					"foreground": "#ffffff",
-					"properties": {
-						"always_enabled": true,
-						"template": "<transparent>\ue0b0</> \ufbab{{ .FormattedMs }}\u2800"
-					},
-					"style": "plain",
-					"type": "executiontime"
-				},
+				
 				{
 					"background": "#00897b",
 					"background_templates": [
@@ -159,15 +150,17 @@
 			"type": "prompt"
 		},
 		{
+			"alignment":"right",
 			"segments": [
-				{
-					"background": "#0077c2",
+{
+					"background": "#83769c",
 					"foreground": "#ffffff",
 					"properties": {
-						"template": "<#0077c2,transparent>\ue0b6</> \uf489 {{ .Name }} <transparent,#0077c2>\ue0b2</>"
+						"always_enabled": true,
+						"template": "<transparent>\ue0b0</> \ufbab{{ .FormattedMs }}\u2800"
 					},
 					"style": "plain",
-					"type": "shell"
+					"type": "executiontime"
 				},
 				{
 					"background": "#1BD760",
@@ -212,9 +205,21 @@
 					"style": "diamond",
 					"trailing_diamond": "\ue0b4",
 					"type": "time"
+				},
+				{
+					"type": "spotify",
+					"style": "powerline",
+					"powerline_symbol": "\uE0B0",
+					"foreground": "#ffffff",
+					"background": "#1BD760",
+					"properties": {
+						"playing_icon": "\uE602 ",
+						"paused_icon": "\uF8E3 ",
+						"stopped_icon": "\uF04D "
+					}
 				}
 			],
-			"type": "tprompt"
+			"type": "prompt"
 		},
 		{
 			"alignment": "left",
@@ -240,6 +245,7 @@
 					"style": "plain",
 					"type": "exit"
 				}
+
 			],
 			"type": "prompt"
 		}
