@@ -11,7 +11,7 @@
           "properties": {
             "folder_separator_icon": " \ue0b1 ",
             "home_icon": "~",
-            "style": "folder",
+            "style": "full",
             "template": " \uf74a  {{ .Path }} "
           },
           "style": "powerline",
