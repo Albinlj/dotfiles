@@ -16,6 +16,8 @@ Plug 'kyazdani42/nvim-web-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'mattn/emmet-vim'
 Plug 'sheerun/vim-polyglot'
+Plug 'frazrepo/vim-rainbow'
+Plug 'tversteeg/registers.nvim'
 
 call plug#end()
 
