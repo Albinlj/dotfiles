@@ -1,4 +1,5 @@
 set nu
+language en_us
 
 call plug#begin()
 
