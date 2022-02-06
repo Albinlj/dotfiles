@@ -22,4 +22,4 @@ function Edit-NeovimConfig
     chezmoi apply
 }
 
-oh-my-posh --init --shell pwsh --config $env:POSH_THEMES_PATH/hunk.omp.json | Invoke-Expression
+oh-my-posh --init --shell pwsh --config $env:POSH_THEMES_PATH/mt.omp.json | Invoke-Expression
