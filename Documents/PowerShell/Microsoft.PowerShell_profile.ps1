@@ -7,6 +7,8 @@ function Prompt
     return " "
 }
 
+Set-Alias vim nvim
+
 Set-Alias psconf Edit-PowershellProfile
 function Edit-PowershellProfile
 {
