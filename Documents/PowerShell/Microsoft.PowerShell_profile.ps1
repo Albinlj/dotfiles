@@ -22,7 +22,7 @@ function Edit-PowershellProfile
 {
     chezmoi edit $Profile
     chezmoi apply
-	Start-Sleep 3000
+	Start-Sleep 3
     . $Profile
 }
 
