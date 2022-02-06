@@ -10,6 +10,8 @@ function Prompt
     return " "
 }
 
+#test34
+
 Set-Alias psconf Edit-PowershellProfile
 function Edit-PowershellProfile
 {
