@@ -38,6 +38,7 @@ noremap <Leader>v :<C-u>vsplit<CR>
 " Git
 noremap <Leader>ga :Gwrite<CR>
 noremap <Leader>gc :Git commit --verbose<CR>
+noremap <Leader>go :GCheckout<CR>
 noremap <Leader>gsh :Git push<CR>
 noremap <Leader>gll :Git pull<CR>
 noremap <Leader>gs :Git<CR>
@@ -171,55 +172,18 @@ command! -nargs=0 OR   :call     CocActionAsync('runCommand', 'editor.action.org
 set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 " Mappings for CoCList
-" Show all diagnostics.
 nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>
-" Manage extensions.
 nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>
-" Show commands.
 nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>
-" Find symbol of current document.
-nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>
-" Search workspace symbols.
+" jFind symbol of current document.
+" nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>
 nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>
-" Do default action for next item.
 nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
-" Do default action for previous item.
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
-" Resume latest coc list.
-nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+"nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 
 
 
-lua << END
-require('lualine').setup {
-  options = {
-    icons_enabled = true,
-    theme = 'auto',
-    component_separators = { left = '', right = ''},
-    section_separators = { left = '', right = ''},
-    disabled_filetypes = {},
-    always_divide_middle = true,
-  },
-  sections = {
-    lualine_a = {'mode'},
-    lualine_b = {'branch', 'diff', 'diagnostics'},
-    lualine_c = {'filename'},
-    lualine_x = {'encoding', 'fileformat', 'filetype'},
-    lualine_y = {'progress'},
-    lualine_z = {'location'}
-  },
-  inactive_sections = {
-    lualine_a = {},
-    lualine_b = {},
-    lualine_c = {'filename'},
-    lualine_x = {'location'},
-    lualine_y = {},
-    lualine_z = {}
-  },
-  tabline = {},
-  extensions = {}
-}
-END
 
 colorscheme gruvbox
