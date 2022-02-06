@@ -3,7 +3,6 @@ set relativenumber
 language en_us
 
 call plug#begin()
-
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'mbbill/undotree'
 Plug 'morhetz/gruvbox'
@@ -14,7 +13,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'kyazdani42/nvim-web-devicons'
-
 call plug#end()
 
 let mapleader=' '
