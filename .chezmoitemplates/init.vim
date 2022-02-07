@@ -1,5 +1,8 @@
 language en_us
 
+set nu
+set relativenumber
+
 call plug#begin()
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'mbbill/undotree'
