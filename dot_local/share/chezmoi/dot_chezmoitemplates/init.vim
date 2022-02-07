@@ -183,4 +183,9 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 "nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
+lua << END
+require('lualine').setup()
+END
+
+
 colorscheme gruvbox
