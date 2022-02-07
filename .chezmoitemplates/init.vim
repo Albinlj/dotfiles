@@ -27,6 +27,8 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
 
+Plug 'dense-analysis/ale'
+
 call plug#end()
 
 let mapleader=" "
