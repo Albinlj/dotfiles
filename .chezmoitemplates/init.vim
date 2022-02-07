@@ -31,7 +31,7 @@ call plug#end()
 let mapleader=" "
 
 let g:rainbow_active = 1
-let g:coc_global_extensions = ['coc-tsserver', 'coc-css', 'coc-cssmodules','coc-json', 'coc-git', "coc-tslint", "coc-eslint"]
+let g:coc_global_extensions = ['coc-tsserver', 'coc-css', 'coc-cssmodules','coc-json', 'coc-git', "coc-tslint-plugin", "coc-eslint"]
 
 
 " Split
