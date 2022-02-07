@@ -22,19 +22,13 @@ Plug 'tversteeg/registers.nvim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'stsewd/fzf-checkout.vim'
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-
-Plug 'HerringtonDarkholme/yats.vim'
-Plug 'maxmellon/vim-jsx-pretty'
-
-Plug 'dense-analysis/ale'
 
 call plug#end()
 
 let mapleader=" "
 
 let g:rainbow_active = 1
-let g:coc_global_extensions = ['coc-tsserver', 'coc-css', 'coc-cssmodules','coc-json', 'coc-git', "coc-tslint-plugin", "coc-eslint"]
+let g:coc_global_extensions = ['coc-tsserver', 'coc-css', 'coc-cssmodules','coc-json', 'coc-git', "coc-tslint-plugin", "coc-eslint", "coc-prettier"]
 
 
 " Split
