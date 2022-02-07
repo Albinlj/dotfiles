@@ -1,4 +1,3 @@
-set nu
 set relativenumber
 language en_us
 
