@@ -106,6 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias vi=nvim
+alias vim=nvim
 alias hem=$home
 alias cze="chezmoi edit -a"
 alias vimconf="cze ~/.local/share/chezmoi/.chezmoitemplates/init.vim" 
