@@ -1,4 +1,3 @@
-set relativenumber
 language en_us
 
 call plug#begin()
