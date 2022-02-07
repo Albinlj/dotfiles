@@ -73,7 +73,7 @@ ZSH_THEME="eastwood"
 plugins=(
 	git
 	z
-	syntax-highlighting
+	zsh-syntax-highlighting
 	zsh-autosuggestions
 )
 
